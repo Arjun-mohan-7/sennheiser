@@ -1,0 +1,92 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: #f8f9fa;
+}
+
+.row{
+    padding-bottom: 30px;
+}
+
+.card-body a{
+    color: black;
+}
+
+.card-group{
+    width: 100%;
+    background-color: #ebebeb;
+    margin: 20px;
+}
+/* Parent Container */
+.content_img{
+    position: relative;
+    
+    float: left;
+    margin-right: 10px;
+   }
+   
+   /* Child Text Container */
+   .content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+   /* Hover on Parent Container */
+   .content_img:hover{
+    cursor: pointer;
+   }
+   
+   .content_img:hover div{
+    width: 1000px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }
+   
+   .suscribe{
+       display: flex;
+       height: 121px;
+       background-color: black;
+       justify-content: space-around;
+       color: white;
+       align-items: center;
+   }
+
+  .row a,.row p,.coloumn a,{
+      color: black;
+      margin-bottom: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .coloumn button{
+      width: 300px;
+      border: solid black 1px;
+  }
+
+  .card-body a{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .card-body h3,.card-body h4{
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+      
+  }
+
+ .coloumn a,.coloumn p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .btn-group  button{
+      background-color:solid white;
+  }
